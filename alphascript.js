@@ -25,7 +25,7 @@ $(document).ready(function(){
             let top = $(window).scrollTop();
             let height = $(this).height();
             let id = $(this).attr('id');
-            let offset = $(this).offset().top - 200;
+            // let offset = $(this).offset().top - 200;
 
             if(top > offset && top < offset + height){
                 $('.navbar ul li a').removeClass('active');
